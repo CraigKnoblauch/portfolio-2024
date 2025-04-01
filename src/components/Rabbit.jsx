@@ -77,7 +77,7 @@ export default function Rabbit(props) {
         smoothCameraTarget.lerp(cameraTarget, 5 * delta)
 
         state.camera.position.copy(smoothCameraPosition)
-        state.camera.lookAt(smoothCameraTarget)
+        // state.camera.lookAt(smoothCameraTarget)
 
         function translate(directionScalar) { // translate instead and use 1 for forward, -1 for backward
 
